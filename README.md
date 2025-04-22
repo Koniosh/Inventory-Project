@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Inventory Management App
+
+A simple inventory tracking application built with **Next.js 13 App Router**, allowing users to add, edit, filter, and delete products. Data is managed using a [MockAPI](https://mockapi.io) backend. This is a demo project designed to showcase CRUD operations, filtering, and responsive UI components.
+
+---
+
+## App Overview
+
+### Features:
+
+- Add new product with name, quantity, expiry date, and image preview.
+- Edit and update product details.
+- Delete products with confirmation.
+- Filter products based on expiry date range (7 days, 1 month, 6 months).
+- Sort products by expiry date (Oldest to Newest / Newest to Oldest).
+- Responsive design for mobile and desktop.
+- Toast notifications for user feedback.
+
+---
+
+##  Setup Instructions
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/Inventory-Project.git
+cd Inventory-Project
 
 ## Getting Started
 
