@@ -12,9 +12,9 @@ export default function ProductCard({ product, onDelete }) {
       />
 
       <div className="mt-4">
-        <h3 className="text-lg font-semibold text-gray-800">{name}</h3>
-        <p className="text-sm text-gray-600">Quantity: {quantity}</p>
-        <p className="text-sm text-gray-600">Expiry: {expDate}</p>
+        <h3 className="text-lg font-semibold text-white">{name}</h3>
+        <p className="text-sm text-white">Quantity: {quantity}</p>
+        <p className="text-sm text-white">Expiry: {expDate}</p>
       </div>
 
       <div className="flex justify-between items-center mt-4">
