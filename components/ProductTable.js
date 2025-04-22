@@ -28,17 +28,15 @@ export default function ProductTable({ products, onDelete }) {
               <td className="border border-gray-300 px-6 py-4">{p.expDate}</td>
               <td className="border border-gray-300 px-6 py-4">
                 <div className="flex justify-center items-center space-x-4">
-                  
                   <Link href={`/edit/${p.id}`}>
                     <button className="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600 transition-all">
                       Edit
                     </button>
                   </Link>
-
-                 
                   <button
                     onClick={() => onDelete(p.id)}
-                    className="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600 transition-all">
+                    className="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600 transition-all"
+                  >
                     Delete
                   </button>
                 </div>
