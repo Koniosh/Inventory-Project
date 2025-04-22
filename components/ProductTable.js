@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function ProductTable({ products, onDelete }) {
   return (
@@ -13,7 +13,7 @@ export default function ProductTable({ products, onDelete }) {
         </tr>
       </thead>
       <tbody>
-        {products.map(p => (
+        {/* {products.map(p => (
           <tr key={p.id} className="text-center border-t">
             <td>
               <img
@@ -37,7 +37,7 @@ export default function ProductTable({ products, onDelete }) {
               </button>
             </td>
           </tr>
-        ))}
+        ))} */}
       </tbody>
     </table>
   );
